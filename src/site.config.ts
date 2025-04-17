@@ -3,11 +3,11 @@ import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } fro
 export const theme: ThemeUserConfig = {
   // === Basic configuration ===
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: 'Astro Theme Pure',
+  title: 'Byte Stack',
   /** Will be used in index page & copyright declaration */
-  author: 'Pure Lab',
+  author: 'Alfie',
   /** Description metadata for your website. Can be used in page metadata. */
-  description: 'Stay hungry, stay foolish',
+  description: 'Minimalist tech blog',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
   favicon: '/favicon/favicon.ico',
   /** Specify the default language for this site. */
@@ -15,7 +15,7 @@ export const theme: ThemeUserConfig = {
     lang: 'en-US',
     attrs: 'en_US',
     // Date locale
-    dateLocale: 'en-US',
+    dateLocale: 'id-ID',
     dateOptions: {
       day: 'numeric',
       month: 'short',
@@ -25,7 +25,7 @@ export const theme: ThemeUserConfig = {
   /** Set a logo image to show in the homepage. */
   logo: {
     src: 'src/assets/avatar.png',
-    alt: 'Avatar'
+    alt: 'Image Logo'
   },
 
   // === Global configuration ===
@@ -59,13 +59,13 @@ export const theme: ThemeUserConfig = {
   footer: {
     // Registration information for ICP (optional)
     registration: {
-      url: 'https://icp.gov.moe/?keyword=APTX4869',
-      text: 'Moe ICP APTX4869'
+      url: '',
+      text: ''
     },
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
     credits: true,
     /** Optional details about the social media accounts for this site. */
-    social: { github: 'https://github.com/cworld1/astro-theme-pure' }
+    social: { github: 'https://github.com/relvinarsenio/bytestack' }
   },
 
   content: {
