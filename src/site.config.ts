@@ -105,7 +105,7 @@ export const integ: IntegrationUserConfig = {
     // server: 'https://v1.hitokoto.cn/?c=i',
     // target: (data) => (data as { hitokoto: string }).hitokoto || 'Error'
     // https://github.com/lukePeavey/quotable
-    server: 'https://programming-quotesapi.vercel.app/api/random?maxLength=60',
+    server: 'https://programming-quotesapi.vercel.app/api/random',
     target: `(data) => data[0].content || 'Error'`
   },
   // Tailwindcss typography
